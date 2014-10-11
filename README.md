@@ -4,7 +4,7 @@
 	
 ## 使用
 
-### npm安装node和fisp环境
+### 安装fisp环境
 
 执行 `npm install -g fis-plus`进行安装，fisp用户应该都有此环境。具体安装方法参考[说明文档](http://fis.baidu.com/fis-plus/userdoc/%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8)
 
