@@ -1,0 +1,15 @@
+{
+  "name": "autopack-demo",
+  "version": "0.0.2",
+  "description": "simple autopack demo",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "autopack",
+    "fis-plus",
+    "demo"
+  ],
+  "author": "zhangtao07@baidu.com",
+  "license": "MIT"
+}

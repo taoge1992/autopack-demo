@@ -1,0 +1,16 @@
+{
+    "pkg/home_sync_css_0.css": [
+        "/static/index/index.css",
+        "/static/lib/css/bootstrap-responsive.css",
+        "/static/lib/css/bootstrap.css",
+        "/widget/section/section.css",
+        "/widget/slogan/slogan.css"
+    ],
+    "pkg/home_sync_js_0.js": [
+        "/static/lib/js/html5.js"
+    ],
+    "pkg/home_sync_js_1.js": [
+        "/static/lib/js/bootstrap.min.js",
+        "/static/lib/js/jquery-1.10.1.js"
+    ]
+}
