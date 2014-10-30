@@ -4,7 +4,7 @@
 	
 ## 使用
 
-### npm安装node和fisp环境
+### 安装fisp环境
 
 执行 `npm install -g fis-plus`进行安装，fisp用户应该都有此环境。具体安装方法参考[说明文档](http://fis.baidu.com/fis-plus/userdoc/%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8)
 
@@ -44,8 +44,10 @@ fis-conf.js中已经进行了基本的配置，在`home`文件夹根目录下执
 
 简版采取配置重点页面权重来表示主要页面pv占比情况，默认为1，如果某重点页面是其他页面的PV的100倍，则可以填写100，这里只需要预估。平台计算结果时将侧重重点页面。如demo中，index2.tpl的pv很高，他只使用了`html5.js`一个js文件，尽管`index.tpl`同时使用了三个js文件，自动打包结果`html5.js`也不会和另外两个合并在一起，这符合性能角度的全站优化。
 
+
 ## 在浏览器中查看Demo打包效果
 
  - 分别在common和home模块根目录下执行`fisp release -p`
  - 执行`fisp server start `开启本地调试
  - 访问 http://127.0.0.1:8080/home/page/index 查看home模块资源加载情况(默认只对js开启自动打包)
+
